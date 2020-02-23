@@ -10,12 +10,11 @@ use crate::core::Segment;
 use crate::directory::Directory;
 use crate::directory::WatchHandle;
 use crate::directory::META_LOCK;
-use crate::reader::index_writer_reader::NRTReader;
+pub(crate) use crate::reader::index_writer_reader::NRTReader;
 use crate::Index;
 use crate::Searcher;
-/*
-<<<<<<< HEAD
 
+/*
 //
 //enum SegmentSource {
 //    FromMetaFile,
